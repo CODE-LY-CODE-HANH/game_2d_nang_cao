@@ -1,0 +1,24 @@
+	background
+	button
+	onClick in button
+	Khi nhấn nút tác động đến nhân vật qua file code PlayerController
+	GUISkin , GUIStyle
+
+Lấy ảnh trên mạng xuống và chỉnh
+
+Chọn Texture ban đầu (không phải GameObject).
+Thay đổi Texture Typethành Sprite (2D and UI).
+Thay đổi Wrap Mode thành Repeat.
+Bấm vào Apply.
+
+Tạo hiệu ứng Parallax cho background
+
+	Create a Quad object: GameObject -> 3D Object ->Quad
+	Tạo Quad và co kéo sao cho vừa
+	Xong kéo ảnh vào Quad 
+	Tạo script và thêm vào Quad
+	Create a light: GameObject->Light->Directional Light
+	Chỉnh màu tối 1 chút
+	Hoặc trong Shader của component cuối Chọn UI/Unlit/Text
+
+	scrollSpeed là tốc độ quay của ảnh
